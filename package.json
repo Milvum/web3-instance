@@ -1,0 +1,32 @@
+{
+  "name": "web3-instance",
+  "version": "0.3.0",
+  "description": "Provides an instance for the web3 library",
+  "main": "build/main/index.js",
+  "typings": "build/main/index",
+  "scripts": {
+    "checkstyle": "tslint -c tslint.json 'src/**/*.ts' -t stylish",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Milvum/web3-instance.git"
+  },
+  "keywords": [
+    "web3",
+    "milvum"
+  ],
+  "author": "Milvum",
+  "license": "GPL-3.0",
+  "devDependencies": {
+    "@types/node": "^8.0.13",
+    "@types/winston": "^2.3.5",
+    "tslint": "^5.5.0",
+    "typescript": "^2.4.1"
+  },
+  "dependencies": {
+    "web3": "^0.20.1",
+    "winston": "^2.3.1",
+    "web3-typescript-typings": "^0.7.2"
+  }
+}
